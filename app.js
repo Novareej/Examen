@@ -11,7 +11,7 @@ var usersRouter = require('./routes/users');
 var moviesRouter = require('./routes/movies')
 
 var app = express();
-const port = 3000;
+
 
 
 
@@ -45,5 +45,10 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+app.listen(3000, () => {
+  console.log("Port 3000");
+
+})
 
 module.exports = app;
