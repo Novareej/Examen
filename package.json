@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Novareej/Examen/issues"
   },
-  "homepage": "https://github.com/Novareej/Examen#readme"
+  "homepage": "https://github.com/Novareej/Examen#readme",
+  "dependencies": {
+    "express-generator": "^4.16.1"
+  }
 }
